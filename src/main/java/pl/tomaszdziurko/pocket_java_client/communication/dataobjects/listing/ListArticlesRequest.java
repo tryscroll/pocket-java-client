@@ -44,6 +44,11 @@ public class ListArticlesRequest extends AbstractPocketRequest {
         return this;
     }
 
+    public ListArticlesRequest withDetailType(ArticleDetailType detailType) {
+        this.detailType = detailType;
+        return this;
+    }
+
     public ListArticlesRequest withContentType(ArticleContentType contentType) {
         this.contentType = contentType;
         return this;
