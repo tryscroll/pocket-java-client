@@ -48,7 +48,7 @@ public class ListingService extends AbstractService {
         return retrieveArticles(request);
     }
 
-    private ListArticlesResponse retrieveArticles(ListArticlesRequest request) {
+    public ListArticlesResponse retrieveArticles(ListArticlesRequest request) {
         RawJsonResponse rawJsonResponse = requestSender.sendRequest(request, "https://getpocket.com/v3/get");
 
         if (rawJsonResponse.statusIsOk()) {
