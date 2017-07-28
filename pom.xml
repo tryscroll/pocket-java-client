@@ -6,7 +6,7 @@
 
     <groupId>pl.tomaszdziurko</groupId>
     <artifactId>pocket-java-client</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
 
     <name>Pocket Java Client</name>
     <description>
